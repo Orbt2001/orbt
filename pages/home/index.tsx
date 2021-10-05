@@ -194,15 +194,15 @@ const Home: NextPage = () => {
 						or anything else, along with a description.
 					</p>
 				</div>
+				<div className={style.work2}>
+					<Image src={work2} alt="Work2" width="650" height="500" />
+				</div>
 				<div className={style.text2}>
 					<h3>Empresa 2</h3>
 					<p>
 						An example of where you can put an image of a project,
 						or anything else, along with a description.
 					</p>
-				</div>
-				<div className={style.work2}>
-					<Image src={work2} alt="Work2" width="650" height="500" />
 				</div>
 			</div>
 
@@ -218,16 +218,21 @@ const Home: NextPage = () => {
 					<form>
 						<div className={style.gridcontato}>
 							<div className={style.inputst}>
-								<input
-									type="text"
-									name="name"
-									placeholder="nome completo"
-								/>
-								<input
-									type="text"
-									name="email"
-									placeholder="username@email.com"
-								/>
+								<div className={style.input1}>
+									<input
+										type="text"
+										name="name"
+										placeholder="nome completo"
+									/>
+								</div>
+								<div className={style.input1}>
+									<input
+										className={style.input2}
+										type="text"
+										name="email"
+										placeholder="username@email.com"
+									/>
+								</div>
 							</div>
 							<div className={style.mensagem}>
 								<textarea
