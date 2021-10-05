@@ -70,14 +70,14 @@ const Home: NextPage = () => {
 			</Head>
 			<div className={style.main}>
 				<nav className={style.nav}>
-					<a className={style.link} href="#">
+					<div className={style.link}>
 						<Image
 							src={profilePic}
 							alt="Logo"
 							height="70"
 							width=""
 						/>
-					</a>
+					</div>
 					<ul className={style.ul}>
 						<li className={style.active}>
 							<a href="#home">Home</a>
@@ -138,7 +138,7 @@ const Home: NextPage = () => {
 					like Aldus PageMaker including versions of Lorem Ipsum.
 				</p>
 			</div>
-
+			{/* Planos */}
 			<div id="plano" className={style.planos}>
 				<div className={style.title}>
 					<h3>planos</h3>
@@ -188,24 +188,18 @@ const Home: NextPage = () => {
 						or anything else, along with a description.
 					</p>
 				</div>
-				<div className={style.gridw2}>
-					<div className={style.text2}>
-						<h3>Empresa 2</h3>
-						<p>
-							An example of where you can put an image of a
-							project, or anything else, along with a description.
-						</p>
-					</div>
-					<div className={style.work2}>
-						<Image
-							src={work2}
-							alt="Work2"
-							width="650"
-							height="500"
-						/>
-					</div>
+				<div className={style.text2}>
+					<h3>Empresa 2</h3>
+					<p>
+						An example of where you can put an image of a project,
+						or anything else, along with a description.
+					</p>
+				</div>
+				<div className={style.work2}>
+					<Image src={work2} alt="Work2" width="650" height="500" />
 				</div>
 			</div>
+
 			{/* Contato */}
 			<div id="contato" className={style.contato}>
 				<div className={style.title}>
@@ -283,6 +277,7 @@ const Home: NextPage = () => {
 							alt="facebook"
 							width="30"
 							height="30"
+							id="image"
 						/>
 					</a>
 					<a href="">
