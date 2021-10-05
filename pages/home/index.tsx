@@ -126,16 +126,18 @@ const Home: NextPage = () => {
 
 			<div className={style.sobre}>
 				<p>
-					Lorem Ipsum is simply dummy text of the printing and
-					typesetting industry. Lorem Ipsum has been the industrys
-					standard dummy text ever since the 1500s, when an unknown
-					printer took a galley of type and scrambled it to make a
-					type specimen book. It has survived not only five centuries,
-					but also the leap into electronic typesetting, remaining
-					essentially unchanged. It was popularised in the 1960s with
-					the release of Letraset sheets containing Lorem Ipsum
-					passages, and more recently with desktop publishing software
-					like Aldus PageMaker including versions of Lorem Ipsum.
+					A orbt é uma empresa recem chegada no mercado da tecnologia,
+					que vem buscando trazer web sites e aplicativos com um
+					design simples, bonito e que retrate a empresa e ao mesmo
+					tempo um site completo, rápido e responsivo, com o SEO
+					configurado e tudo mais que você possa ter direito.
+					Trabalhamos para optimizar e melhorar a experiência da
+					empresa com as novidades, sempre buscamos inovar e sempre
+					manter nossos projetos atualizados e com ótima
+					funcionalidade e velocidade. Além disso sempre buscamos
+					ouvir nossos clientes e trabalhar em conjunto para que o
+					site fique com a cara da empresa e que os clientes de tal
+					tenham um experiência fantástica.
 				</p>
 			</div>
 			{/* Planos */}
@@ -260,13 +262,15 @@ const Home: NextPage = () => {
 				</div>
 				<div className={style.linel}>
 					<p>
-						Lorem Ipsum is simply dummy text of the printing and
-						typesetting industry. Lorem Ipsum has been the industrys
-						standard dummy text ever since the 1500s, when an
-						unknown printer took a galley of type and scrambled it
-						to make a type specimen book. It has survived not only
-						five centuries, but also the leap into electronic
-						typesetting, remaining essentially unchanged.
+						A orbt é uma empresa recem chegada no mercado da
+						tecnologia, que vem buscando trazer web sites e
+						aplicativos com um design simples, bonito e que retrate
+						a empresa e ao mesmo tempo um site completo, rápido e
+						responsivo, com o SEO configurado e tudo mais que você
+						possa ter direito. Trabalhamos para optimizar e melhorar
+						a experiência da empresa com as novidades, sempre
+						buscamos inovar e sempre manter nossos projetos
+						atualizados e com ótima funcionalidade e velocidade.
 					</p>
 				</div>
 
