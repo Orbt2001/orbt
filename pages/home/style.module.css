@@ -311,15 +311,15 @@ BUSCAR RESPONSIVO
 	width: 650px;
 	height: 400px;
 	margin-top: -5px;
-	margin-left: 0%;
+	margin-left: 100%;
 }
 
 .text2 {
 	width: 100%;
-	margin-left: 22px;
+	margin-left: -95%;
 	margin-top: -5px;
 	width: 650px;
-	height: 500px;
+	height: 452.95px;
 	background-color: rgb(32, 32, 32);
 	font-family: 'Poppins', sans-serif;
 	color: #fff;
