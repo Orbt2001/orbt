@@ -73,6 +73,7 @@ const Home: NextPage = () => {
 				<title>Orbt</title>
 			</Head>
 			<div className={style.main}>
+				{/* NAV */}
 				<nav className={style.nav}>
 					<div className={style.link}>
 						<Image
