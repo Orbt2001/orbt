@@ -3,7 +3,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import style from '../home/style.module.css'
-import res from '../home/responsive.module.css'
+import axios from 'axios'
 /* Images */
 import profilePic from '/public/orbtwh.svg'
 import orbitSvg from '/public/orbita.svg'
@@ -12,26 +12,39 @@ import work2 from '/public/work2.jpg'
 import facebook from '/public/facebook.webp'
 import instagram from '/public/instagram.webp'
 import github from '/public/github.webp'
+import { useState } from 'react'
+
+interface Data {
+	name: string
+	email: string
+	message: string
+}
 
 const Home: NextPage = () => {
-	{
-		/* 
-	async function handleOnSubmit(e) {
+	const [data, setData] = useState<Data>({
+		email: '',
+		message: '',
+		name: '',
+	})
+
+	const handleChange = (
+		e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+	) => {
+		const { name, value } = e.target
+
+		setData(oldData => ({ ...oldData, [name]: value }))
+	}
+
+	const submitForm = (e: React.FormEvent) => {
 		e.preventDefault()
-
-		const formData = {}
-
-		Array.from(e.currentTarget.elements).forEach(field => {
-			if (!field.name) return
-			formData[field.name] = field.value
-		})
-
-		fetch('./api/mail', {
-			method: 'POST',
-			body: JSON.stringify(formData),
-		})
-		console.log(formData)
-	}*/
+		axios
+			.post('./api/contact', data)
+			.then(() => {
+				return console.log('Thank you for contacting us!', data)
+			})
+			.catch(e => {
+				return console.log('Something bad happened', e.message)
+			})
 	}
 
 	return (
@@ -216,14 +229,18 @@ const Home: NextPage = () => {
 					<h2>Preencha o Formulário</h2>
 					<p>Preencha os campos abaixo para fazer um orçamento</p>
 					{/* <form method="POST" onSubmit={handleOnSubmit}> */}
-					<form>
+					<form onSubmit={submitForm}>
 						<div className={style.gridcontato}>
 							<div className={style.inputst}>
 								<div className={style.input1}>
 									<input
 										type="text"
 										name="name"
+										id="name"
 										placeholder="nome completo"
+										value={data.name}
+										onChange={handleChange}
+										required
 									/>
 								</div>
 								<div className={style.input1}>
@@ -231,14 +248,22 @@ const Home: NextPage = () => {
 										className={style.input2}
 										type="text"
 										name="email"
+										id="email"
 										placeholder="username@email.com"
+										value={data.email}
+										onChange={handleChange}
+										required
 									/>
 								</div>
 							</div>
 							<div className={style.mensagem}>
 								<textarea
 									name="message"
+									id="message"
 									placeholder="escreva sua mensagem..."
+									value={data.message}
+									onChange={handleChange}
+									required
 								></textarea>
 							</div>
 							<button className={style.buttonf} type="submit">
@@ -323,3 +348,6 @@ const Home: NextPage = () => {
 }
 
 export default Home
+function setData(arg0: (oldData: any) => any) {
+	throw new Error('Function not implemented.')
+}
