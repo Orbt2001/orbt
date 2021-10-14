@@ -6,6 +6,7 @@ BUSCAR RESPONSIVO
 .main {
 	margin: 0;
 	padding: 0;
+	box-sizing: border;
 }
 .nav {
 	width: 100%;
@@ -147,7 +148,7 @@ BUSCAR RESPONSIVO
 	margin-right: 20%;
 	margin-bottom: 96px;
 }
-.sobre p {
+.corpotxt p {
 	font-family: 'Poppins', sans-serif;
 	text-align: justify;
 }
@@ -641,7 +642,7 @@ BUSCAR RESPONSIVO
 	/*SOBRE*/
 	.sobre {
 		width: 100%;
-		margin-left: 40%;
+		margin-left: 0%;
 	}
 
 	.sobre_title h2 {
@@ -649,10 +650,10 @@ BUSCAR RESPONSIVO
 		margin-left: 0%;
 	}
 
-	.sobre p {
-		width: 70%;
-		margin-left: -25%;
-		font-size: 1.3rem;
+	.corpotxt p {
+		width: 100%;
+		text-transform: uppercase;
+		font-size: 1.2rem;
 	}
 
 	/*PLANOS*/

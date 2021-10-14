@@ -143,20 +143,23 @@ const Home: NextPage = () => {
 			</div>
 
 			<div className={style.sobre}>
-				<p>
-					A orbt é uma empresa recem chegada no mercado da tecnologia,
-					que vem buscando trazer web sites e aplicativos com um
-					design simples, bonito e que retrate a empresa e ao mesmo
-					tempo um site completo, rápido e responsivo, com o SEO
-					configurado e tudo mais que você possa ter direito.
-					Trabalhamos para optimizar e melhorar a experiência da
-					empresa com as novidades, sempre buscamos inovar e sempre
-					manter nossos projetos atualizados e com ótima
-					funcionalidade e velocidade. Além disso sempre buscamos
-					ouvir nossos clientes e trabalhar em conjunto para que o
-					site fique com a cara da empresa e que os clientes de tal
-					tenham um experiência fantástica.
-				</p>
+				<div className={style.corpotxt}>
+					<p>
+						A orbt é uma empresa recem chegada no mercado da
+						tecnologia, que vem buscando trazer web sites e
+						aplicativos com um design simples, bonito e que retrate
+						a empresa e ao mesmo tempo um site completo, rápido e
+						responsivo, com o SEO configurado e tudo mais que você
+						possa ter direito. Trabalhamos para optimizar e melhorar
+						a experiência da empresa com as novidades, sempre
+						buscamos inovar e sempre manter nossos projetos
+						atualizados e com ótima funcionalidade e velocidade.
+						Além disso sempre buscamos ouvir nossos clientes e
+						trabalhar em conjunto para que o site fique com a cara
+						da empresa e que os clientes de tal tenham um
+						experiência fantástica.
+					</p>
+				</div>
 			</div>
 			{/* Planos */}
 			<div id="plano" className={style.planos}>
