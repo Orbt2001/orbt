@@ -204,8 +204,9 @@ const Home: NextPage = () => {
 				<div className={style.text1}>
 					<h3>Indesfer</h3>
 					<p>
-						An example of where you can put an image of a project,
-						or anything else, along with a description.
+						É uma empresa regional que trabalha com corte e dobra de
+						chapas, é nosso cliente a mais de 1 ano e tem ótimos
+						resultado.
 					</p>
 				</div>
 				<div className={style.work2}>
