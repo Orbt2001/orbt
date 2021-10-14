@@ -233,29 +233,25 @@ const Home: NextPage = () => {
 					<form onSubmit={submitForm}>
 						<div className={style.gridcontato}>
 							<div className={style.inputst}>
-								<div className={style.input1}>
-									<input
-										type="text"
-										name="name"
-										id="name"
-										placeholder="nome completo"
-										value={data.name}
-										onChange={handleChange}
-										required
-									/>
-								</div>
-								<div className={style.input1}>
-									<input
-										className={style.input2}
-										type="text"
-										name="email"
-										id="email"
-										placeholder="username@email.com"
-										value={data.email}
-										onChange={handleChange}
-										required
-									/>
-								</div>
+								<input
+									type="text"
+									name="name"
+									id="name"
+									placeholder="nome completo"
+									value={data.name}
+									onChange={handleChange}
+									required
+								/>
+
+								<input
+									type="text"
+									name="email"
+									id="email"
+									placeholder="username@email.com"
+									value={data.email}
+									onChange={handleChange}
+									required
+								/>
 							</div>
 							<div className={style.mensagem}>
 								<textarea

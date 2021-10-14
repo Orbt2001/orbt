@@ -18,7 +18,7 @@ BUSCAR RESPONSIVO
 
 .link {
 	padding: 17px;
-	margin-left: 50px;
+	margin-left: -15%;
 }
 
 .ul {
@@ -581,7 +581,7 @@ BUSCAR RESPONSIVO
 @media (max-width: 540px) {
 	/*NAV*/
 	.nav {
-		width: 140%;
+		width: 100%;
 		height: 650px;
 		display: none;
 		display: flex;
@@ -615,7 +615,7 @@ BUSCAR RESPONSIVO
 
 	/*HOME*/
 	.home {
-		width: 140%;
+		width: 100%;
 		height: 700px;
 		margin-top: 50px;
 	}
@@ -640,24 +640,24 @@ BUSCAR RESPONSIVO
 
 	/*SOBRE*/
 	.sobre {
-		width: 140%;
+		width: 100%;
 		margin-left: 40%;
 	}
 
 	.sobre_title h2 {
-		width: 140%;
+		width: 100%;
 		margin-left: 0%;
 	}
 
 	.sobre p {
-		width: 80%;
-		margin-left: -20%;
+		width: 70%;
+		margin-left: -25%;
 		font-size: 1.3rem;
 	}
 
 	/*PLANOS*/
 	.planos {
-		width: 140%;
+		width: 100%;
 		height: 1650px;
 	}
 
@@ -676,7 +676,7 @@ BUSCAR RESPONSIVO
 
 	/* TRABALHOS */
 	.works_title {
-		width: 140%;
+		width: 100%;
 	}
 
 	.gridw {
@@ -684,16 +684,16 @@ BUSCAR RESPONSIVO
 	}
 
 	.work1 {
-		width: 120%;
-		margin-left: 10%;
+		width: 100%;
+		margin-left: 0%;
 	}
 
 	.text1 {
-		width: 120%;
+		width: 100%;
 		margin-top: -40.5%;
 		height: 399.69px;
 		text-align: center;
-		margin-left: 10%;
+		margin-left: 0%;
 	}
 	.text1 h3 {
 		font-size: 3rem;
@@ -706,17 +706,17 @@ BUSCAR RESPONSIVO
 	}
 
 	.work2 {
-		width: 120%;
+		width: 100%;
 		margin-top: 0%;
-		margin-left: 10%;
+		margin-left: 0%;
 	}
 
 	.text2 {
-		width: 120%;
+		width: 100%;
 		height: 399.69px;
 		text-align: center;
-		margin-left: 10%;
-		margin-top: -40.5%;
+		margin-left: 0%;
+		margin-top: -41.5%;
 		margin-bottom: 100px;
 	}
 	.text2 h3 {
@@ -730,7 +730,7 @@ BUSCAR RESPONSIVO
 
 	/*CONTATO*/
 	.contato {
-		width: 140%;
+		width: 100%;
 		height: 1100px;
 	}
 
@@ -746,7 +746,7 @@ BUSCAR RESPONSIVO
 	.inputst {
 		display: block;
 	}
-	.input1 input {
+	.inputst input {
 		margin-top: 10%;
 		margin-left: 0%;
 	}
@@ -766,12 +766,12 @@ BUSCAR RESPONSIVO
 	/*BLOCQUOTE*/
 	.blockquote {
 		width: 100%;
-		margin-left: 20%;
+		margin-left: 0%;
 	}
 
 	/*FOOTER*/
 	.footer {
-		width: 140%;
+		width: 100%;
 		height: 250px;
 	}
 	.footer p {
@@ -784,7 +784,7 @@ BUSCAR RESPONSIVO
 	}
 
 	.navf {
-		width: 140%;
+		width: 100%;
 		margin-left: 5%;
 	}
 
@@ -794,578 +794,16 @@ BUSCAR RESPONSIVO
 
 	/*Redes Sociais*/
 	.redes {
-		margin-left: 32%;
+		margin-left: 28%;
 	}
 	/*Copyright*/
 	.copy {
-		width: 140%;
+		width: 100%;
 		height: 40%;
 		margin-top: -1px;
 	}
 	.copy span {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 		margin-left: 1.5%;
-	}
-}
-
-/*media 720px*/
-@media (max-width: 720px) and (min-width: 540px) {
-	/*NAV*/
-	.nav {
-		width: 115%;
-		height: 650px;
-		display: none;
-		display: flex;
-		position: relative;
-		background-color: rgb(32, 32, 32);
-	}
-
-	.link {
-		display: inline-block;
-		position: absolute;
-		width: 100%;
-		margin-left: 5%;
-		align-items: center;
-	}
-
-	.ul {
-		width: 100%;
-		height: 100%;
-		text-align: center;
-		margin-top: 120px;
-		margin-right: 10px;
-	}
-
-	.ul li {
-		display: block;
-		margin-right: 20px;
-		margin-top: 30px;
-		font-size: 3.3rem;
-		text-transform: uppercase;
-	}
-
-	/*HOME*/
-	.home {
-		width: 115%;
-	}
-
-	.imgorbta {
-		width: 0px;
-		opacity: 0;
-	}
-
-	.textbv {
-		margin-top: 15%;
-		margin-left: -100%;
-		text-align: center;
-	}
-	.textbv h1 {
-		font-size: 4rem;
-	}
-	.textbv p {
-		width: 100%;
-		margin-left: -0.5%;
-		font-size: 1.3rem;
-	}
-
-	.buttonh {
-		margin-left: -2%;
-	}
-
-	/*SOBRE*/
-	.sobre_title h2 {
-		width: 115%;
-		margin-left: 0%;
-	}
-	.sobre p {
-		width: 115%;
-		margin-left: 5%;
-	}
-
-	/*PLANOS*/
-	.planos {
-		width: 115%;
-		height: 1650px;
-	}
-
-	.plano1 {
-		width: 100%;
-		height: 50%;
-		margin-left: 50%;
-	}
-
-	.plano2 {
-		width: 100%;
-		height: 50%;
-		margin-left: -50%;
-		margin-top: 700px;
-	}
-
-	/* TRABALHOS */
-	.works_title {
-		width: 115%;
-	}
-
-	.gridw {
-		display: block;
-	}
-
-	.work1 {
-		width: 80%;
-		margin-left: 16%;
-	}
-
-	.text1 {
-		width: 80%;
-		margin-top: -26%;
-		height: 477.69px;
-		text-align: center;
-		margin-left: 16%;
-	}
-	.text1 h3 {
-		font-size: 2rem;
-		padding-top: 130px;
-	}
-	.text1 p {
-		width: 60%;
-		margin-left: 20%;
-		font-size: 1.2rem;
-	}
-
-	.work2 {
-		width: 80%;
-		margin-top: 0%;
-		margin-left: 16%;
-	}
-
-	.text2 {
-		width: 80%;
-		height: 477.69px;
-		text-align: center;
-		margin-left: 16%;
-		margin-top: -23.5%;
-		margin-bottom: 100px;
-	}
-	.text2 h3 {
-		padding-top: 130px;
-		font-size: 2rem;
-	}
-	.text2 p {
-		width: 60%;
-		margin-left: 20%;
-		font-size: 1.2rem;
-	}
-
-	/*CONTATO*/
-	.contato {
-		width: 115%;
-		height: 1200px;
-	}
-
-	.gridcontato {
-		display: block;
-	}
-
-	.contatof {
-		width: 90%;
-		height: 83%;
-		margin-left: 5%;
-	}
-
-	.inputst {
-		display: block;
-	}
-	.input1 input {
-		margin-top: 10%;
-		margin-left: 0%;
-	}
-
-	.mensagem textarea {
-		width: 100%;
-		margin-top: 20%;
-		margin-left: 0%;
-	}
-
-	/*BLOCQUOTE*/
-	.blockquote {
-		width: 115%;
-		margin-left: 0%;
-	}
-
-	/*FOOTER*/
-	.footer {
-		width: 115%;
-		height: 200px;
-	}
-	.footer p {
-		display: none;
-	}
-
-	.linel:after,
-	.navf:after {
-		display: none;
-	}
-
-	.navf {
-		width: 100%;
-		margin-left: 15%;
-	}
-	.navf li a {
-		font-size: 1.5rem;
-	}
-	/*Redes Sociais*/
-	.redes {
-		margin-left: 35%;
-	}
-	/*Copyright*/
-	.copy {
-		width: 115%;
-		height: 40%;
-		margin-top: -1px;
-	}
-	.copy span {
-		font-size: 1.3rem;
-		margin-left: 15%;
-	}
-}
-
-/*media 960px*/
-@media (max-width: 960px) and (min-width: 720px) {
-	/*NAV*/
-	.nav {
-		width: 82%;
-		height: 100px;
-		display: flex;
-		position: fixed;
-		background-color: rgb(32, 32, 32);
-		z-index: 99;
-	}
-
-	.link {
-		width: 100%;
-		padding: 17px;
-		margin-left: -17%;
-	}
-
-	.ul {
-		list-style: none;
-		width: 100%;
-		text-align: right;
-		margin-right: 0%;
-	}
-
-	.ul li {
-		display: inline-block;
-		margin-right: 40px;
-		margin-top: 8px;
-	}
-
-	.ul li a {
-		color: rgb(255, 255, 255);
-		font-family: 'Poppins', sans-serif;
-		font-size: 1.5rem;
-	}
-
-	/*HOME*/
-	.home {
-		padding: 100px 0;
-		width: 114%;
-		height: 700px;
-	}
-
-	.imgorbta {
-		width: 0px;
-		opacity: 0;
-	}
-
-	.textbv {
-		margin-top: 10%;
-		margin-left: -100%;
-		text-align: center;
-	}
-	.textbv h1 {
-		font-size: 4rem;
-	}
-	.textbv p {
-		font-size: 1.5rem;
-	}
-
-	.buttonh {
-		font-size: 18px;
-	}
-
-	/*SOBRE*/
-	.sobre {
-		text-align: center;
-	}
-
-	.sobre_title h2 {
-		width: 100%;
-		margin-left: 5%;
-	}
-	.sobre p {
-		width: 120%;
-		margin-left: 0%;
-		font-size: 1.4rem;
-	}
-
-	/*PLANOS*/
-	.planos {
-		width: 114%;
-		height: 2000px;
-	}
-
-	.plano1 {
-		width: 100%;
-		height: 45%;
-		margin-left: 50%;
-	}
-	.plano1 h2 {
-		font-size: 45px;
-	}
-	.plano1 p {
-		font-size: 30px;
-	}
-	.plano1 li {
-		font-size: 20px;
-	}
-	.plano1 span {
-		font-size: 30px;
-	}
-
-	.plano2 {
-		width: 100%;
-		height: 45%;
-		margin-left: -50%;
-		margin-top: 900px;
-	}
-	.plano2 h2 {
-		font-size: 45px;
-	}
-	.plano2 p {
-		font-size: 30px;
-	}
-	.plano2 li {
-		font-size: 20px;
-	}
-	.plano2 span {
-		font-size: 30px;
-	}
-
-	/*Button Plano*/
-	.buttonp,
-	.buttond {
-		font-size: 28px;
-	}
-
-	/*TRABALHOS*/
-	.works_title {
-		width: 100%;
-		margin-left: 5%;
-	}
-
-	.work1 {
-		width: 90%;
-		margin-left: 20%;
-	}
-
-	.text1 {
-		width: 90%;
-		height: 331.61px;
-		text-align: center;
-		margin-left: 10%;
-	}
-	.text1 h3 {
-		margin-top: 20%;
-		font-size: 2rem;
-	}
-	.text1 p {
-		width: 60%;
-		margin-left: 20%;
-		font-size: 1rem;
-	}
-
-	.work2 {
-		width: 90%;
-		height: 100%;
-		margin-left: 110%;
-	}
-
-	.text2 {
-		width: 90%;
-		height: 331.61px;
-		text-align: center;
-		margin-left: -80%;
-	}
-	.text2 h3 {
-		margin-top: 20%;
-		font-size: 2rem;
-	}
-	.text2 p {
-		width: 60%;
-		margin-left: 20%;
-		font-size: 1rem;
-	}
-
-	/*CONTATO*/
-	.contato {
-		width: 114%;
-		height: 1400px;
-	}
-
-	.gridcontato {
-		display: block;
-	}
-
-	.contatof {
-		width: 90%;
-		height: 83%;
-		margin-left: 5%;
-	}
-	.contatof h2 {
-		margin-left: 30px;
-		font-size: 44px;
-	}
-	.contatof p {
-		margin-left: 30px;
-		text-transform: uppercase;
-		font-size: 30px;
-		margin-top: -2.5%;
-	}
-
-	.inputst {
-		display: block;
-	}
-	.inputst input {
-		font-size: 28px;
-	}
-	.input1 input {
-		margin-top: 5%;
-		margin-left: 0%;
-	}
-
-	.mensagem textarea {
-		width: 100%;
-		height: 300px;
-		margin-top: 10%;
-		margin-left: 0%;
-		font-size: 33px;
-	}
-	.buttonf {
-		font-size: 28px;
-	}
-
-	/*BLOCQUOTE*/
-	.blockquote {
-		width: 100%;
-		margin-left: 5%;
-	}
-
-	/*FOOTER*/
-	.footer {
-		width: 115%;
-		height: 300px;
-	}
-	.footer p,
-	.linel:after,
-	.navf:after {
-		display: none;
-	}
-
-	.navf {
-		width: 100%;
-		margin-left: 20%;
-	}
-	.navf li a {
-		text-align: center;
-		font-size: 2rem;
-	}
-
-	/*Redes Sociais*/
-	.redes {
-		margin-left: 40%;
-		margin-top: 3px;
-	}
-
-	/*CopyRight*/
-	.copy {
-		width: 115%;
-		height: 30%;
-		margin-top: -0.5%;
-	}
-	.copy span {
-		font-size: 1.5rem;
-		text-align: center;
-		margin-left: 25%;
-	}
-}
-
-/*media 1200px*/
-@media (max-width: 1200px) and (min-width: 960px) {
-	/*HOME*/
-	.home {
-		width: 120%;
-		height: 657px;
-	}
-
-	/*SOBRE*/
-	.sobre_title h2 {
-		width: 110%;
-		margin-left: 5%;
-	}
-	.sobre p {
-		width: 110%;
-		margin-left: 15%;
-	}
-
-	/*PLANOS*/
-	.planos {
-		width: 120%;
-	}
-
-	/*TRABALHOS*/
-	.works_title {
-		width: 120%;
-	}
-	.work1 {
-		width: 110%;
-		margin-left: 10%;
-	}
-	.text1 {
-		width: 110%;
-		height: 110%;
-		margin-left: 20%;
-	}
-
-	.work2 {
-		width: 110%;
-		margin-left: 120%;
-	}
-	.text2 {
-		width: 110%;
-		height: 452.25px;
-		margin-left: -90%;
-	}
-
-	/*CONTATO*/
-	.contato {
-		width: 120%;
-	}
-	.contatof {
-		margin-left: 5%;
-	}
-
-	/*BLOCQUOTE*/
-	.blockquote {
-		width: 100%;
-		margin-left: 10%;
-	}
-
-	/*FOOTER*/
-	.footer {
-		width: 120%;
-	}
-	.copy {
-		width: 120%;
 	}
 }
