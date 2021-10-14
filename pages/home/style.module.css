@@ -651,7 +651,8 @@ BUSCAR RESPONSIVO
 	}
 
 	.corpotxt p {
-		width: 100%;
+		width: 90%;
+		margin-left: 5%;
 		text-transform: uppercase;
 		font-size: 1.2rem;
 	}
@@ -708,7 +709,7 @@ BUSCAR RESPONSIVO
 
 	.work2 {
 		width: 100%;
-		margin-top: 0%;
+		margin-top: 5%;
 		margin-left: 0%;
 	}
 
