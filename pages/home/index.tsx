@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable @next/next/no-page-custom-font */
 import type { NextPage } from 'next'
 import Head from 'next/head'
@@ -82,6 +84,16 @@ const Home: NextPage = () => {
 				<meta
 					name="viewport"
 					content="width=device-width, initial-scale=1.0"
+				/>
+				<link
+					rel="stylesheet"
+					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+					integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+				/>
+				{/*Whatsapp floating*/}
+				<link
+					rel="stylesheet"
+					href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
 				/>
 				<title>Orbt</title>
 			</Head>
@@ -342,6 +354,14 @@ const Home: NextPage = () => {
 					Copyright © 2020, Todos direitos reservados
 					<a href=""> Orbt</a>
 				</span>
+
+				<a
+					href="https://tap.link/orbt"
+					className={style.float}
+					target="_blank"
+				>
+					<i className="fa fa-whatsapp my-float"></i>
+				</a>
 			</div>
 		</>
 	)
