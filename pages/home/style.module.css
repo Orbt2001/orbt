@@ -578,6 +578,25 @@ BUSCAR RESPONSIVO
 	color: #ff2828;
 }
 
+.float {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	z-index: 100;
+}
+.float i {
+	margin-top: 7px;
+	margin-left: 3px;
+	font-size: 3rem;
+}
+
 /*media 540px*/
 @media (max-width: 540px) {
 	/*NAV*/
@@ -808,6 +827,25 @@ BUSCAR RESPONSIVO
 		font-size: 1.2rem;
 		margin-left: 1.5%;
 	}
+
+	.float {
+		position: fixed;
+		width: 60px;
+		height: 60px;
+		bottom: 40px;
+		right: 40px;
+		background-color: #25d366;
+		color: #fff;
+		border-radius: 50px;
+		text-align: center;
+		font-size: 30px;
+		z-index: 100;
+	}
+	.float i {
+		margin-top: 7px;
+		margin-left: 3px;
+		font-size: 3rem;
+	}
 }
 
 /*media 720px*/
@@ -1028,6 +1066,25 @@ BUSCAR RESPONSIVO
 	.copy span {
 		font-size: 1.3rem;
 		margin-left: 15%;
+	}
+
+	.float {
+		position: fixed;
+		width: 60px;
+		height: 60px;
+		bottom: 40px;
+		right: 40px;
+		background-color: #25d366;
+		color: #fff;
+		border-radius: 50px;
+		text-align: center;
+		font-size: 30px;
+		z-index: 100;
+	}
+	.float i {
+		margin-top: 7px;
+		margin-left: 3px;
+		font-size: 3rem;
 	}
 }
 
@@ -1298,6 +1355,25 @@ BUSCAR RESPONSIVO
 		text-align: center;
 		margin-left: 10%;
 	}
+
+	.float {
+		position: fixed;
+		width: 60px;
+		height: 60px;
+		bottom: 40px;
+		right: 40px;
+		background-color: #25d366;
+		color: #fff;
+		border-radius: 50px;
+		text-align: center;
+		font-size: 30px;
+		z-index: 100;
+	}
+	.float i {
+		margin-top: 7px;
+		margin-left: 3px;
+		font-size: 3rem;
+	}
 }
 
 /*media 1200px*/
@@ -1368,22 +1444,23 @@ BUSCAR RESPONSIVO
 	.copy {
 		width: 115%;
 	}
-}
-.float {
-	position: fixed;
-	width: 60px;
-	height: 60px;
-	bottom: 40px;
-	right: 40px;
-	background-color: #25d366;
-	color: #fff;
-	border-radius: 50px;
-	text-align: center;
-	font-size: 30px;
-	z-index: 100;
-}
-.float i {
-	margin-top: 7px;
-	margin-left: 3px;
-	font-size: 3rem;
+
+	.float {
+		position: fixed;
+		width: 60px;
+		height: 60px;
+		bottom: 40px;
+		right: 60px;
+		background-color: #25d366;
+		color: #fff;
+		border-radius: 50px;
+		text-align: center;
+		font-size: 30px;
+		z-index: 100;
+	}
+	.float i {
+		margin-top: 7px;
+		margin-left: 3px;
+		font-size: 3rem;
+	}
 }
