@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable @next/next/no-page-custom-font */
@@ -23,6 +24,9 @@ interface Data {
 }
 
 const Home: NextPage = () => {
+	const [whatsapp, setWhatsapp] = useState(false)
+	const onClick = () => setWhatsapp(!whatsapp)
+
 	const [data, setData] = useState<Data>({
 		email: '',
 		message: '',
@@ -89,11 +93,6 @@ const Home: NextPage = () => {
 					rel="stylesheet"
 					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
 					integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-				/>
-				{/*Whatsapp floating*/}
-				<link
-					rel="stylesheet"
-					href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
 				/>
 				<title>Orbt</title>
 			</Head>
@@ -355,19 +354,52 @@ const Home: NextPage = () => {
 					<a href=""> Orbt</a>
 				</span>
 
-				<a
-					href="https://tap.link/orbt"
-					className={style.float}
-					target="_blank"
-				>
-					<i className="fa fa-whatsapp my-float"></i>
-				</a>
+				<div>
+					<button className={style.float} onClick={onClick}>
+						{whatsapp && <Text />}
+						<img src="whatsapp.png" alt="Whatsapp" height="50" />
+					</button>
+				</div>
 			</div>
 		</>
 	)
 }
 
+const Text = () => (
+	<div className={style.whatfloat}>
+		<a href="https://api.whatsapp.com/send?phone=5516996135250&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento">
+			<img src="601.png" alt="Abner" height="80" />
+			<p>
+				Abner Ananias <br />
+				(16) 99613-5250
+			</p>
+		</a>
+		<a href="https://api.whatsapp.com/send?phone=5516994009055&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento">
+			<img src="602.png" alt="Gabriel" height="80" />
+			<p>
+				Gabriel Laroca <br />
+				(16) 99400-9055
+			</p>
+		</a>
+		<a href="https://api.whatsapp.com/send?phone=5516997570850&text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento">
+			<img src="603.png" alt="Lucas" height="80" />
+			<p>
+				Lucas Lima <br />
+				(16) 99757-0850
+			</p>
+		</a>
+	</div>
+)
+
 export default Home
 function setData(arg0: (oldData: any) => any) {
+	throw new Error('Function not implemented.')
+}
+function debounce(arg0: (value: any) => Promise<void>, arg1: number) {}
+function setShowText(arg0: boolean) {
+	throw new Error('Function not implemented.')
+}
+
+function setWhatsapp(arg0: boolean): void {
 	throw new Error('Function not implemented.')
 }

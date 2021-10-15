@@ -580,21 +580,57 @@ BUSCAR RESPONSIVO
 
 .float {
 	position: fixed;
-	width: 60px;
-	height: 60px;
-	bottom: 40px;
-	right: 40px;
+	width: 1px;
+	height: 1px;
+	bottom: 70px;
+	right: 60px;
 	background-color: #25d366;
 	color: #fff;
-	border-radius: 50px;
-	text-align: center;
+	border: none;
+	border-radius: 10px;
 	font-size: 30px;
 	z-index: 100;
 }
-.float i {
-	margin-top: 7px;
-	margin-left: 3px;
-	font-size: 3rem;
+.float img {
+	cursor: pointer;
+	margin-left: -7px;
+	margin-top: -3px;
+}
+.whatfloat {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 60px;
+	right: 35px;
+	top: 300px;
+	font-family: 'Poppins', sans-serif;
+	color: #fff;
+	z-index: 100;
+	display: grid;
+	animation: fadein 1.5s;
+	-moz-animation: fadein 1.5s;
+	-webkit-animation: fadein 1.5s;
+	-o-animation: fadein 1.5s;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+		padding-top: 200px;
+	}
+
+	100% {
+		opacity: 1;
+		padding-top: 0px;
+	}
+}
+
+.whatfloat p {
+	text-align: left;
+	display: grid;
+	font-size: 1rem;
+	margin-left: -240%;
+	margin-top: -119%;
 }
 
 /*media 540px*/
@@ -829,22 +865,11 @@ BUSCAR RESPONSIVO
 	}
 
 	.float {
-		position: fixed;
-		width: 60px;
-		height: 60px;
-		bottom: 40px;
-		right: 40px;
-		background-color: #25d366;
-		color: #fff;
-		border-radius: 50px;
-		text-align: center;
-		font-size: 30px;
-		z-index: 100;
+		right: 70px;
+		bottom: 70px;
 	}
-	.float i {
-		margin-top: 7px;
-		margin-left: 3px;
-		font-size: 3rem;
+	.whatfloat {
+		top: 250px;
 	}
 }
 
@@ -1069,22 +1094,11 @@ BUSCAR RESPONSIVO
 	}
 
 	.float {
-		position: fixed;
-		width: 60px;
-		height: 60px;
-		bottom: 40px;
-		right: 40px;
-		background-color: #25d366;
-		color: #fff;
-		border-radius: 50px;
-		text-align: center;
-		font-size: 30px;
-		z-index: 100;
+		right: 90px;
+		bottom: 90px;
 	}
-	.float i {
-		margin-top: 7px;
-		margin-left: 3px;
-		font-size: 3rem;
+	.whatfloat {
+		top: 200px;
 	}
 }
 
@@ -1357,22 +1371,11 @@ BUSCAR RESPONSIVO
 	}
 
 	.float {
-		position: fixed;
-		width: 60px;
-		height: 60px;
-		bottom: 40px;
-		right: 40px;
-		background-color: #25d366;
-		color: #fff;
-		border-radius: 50px;
-		text-align: center;
-		font-size: 30px;
-		z-index: 100;
+		right: 90px;
+		bottom: 90px;
 	}
-	.float i {
-		margin-top: 7px;
-		margin-left: 3px;
-		font-size: 3rem;
+	.whatfloat {
+		top: 200px;
 	}
 }
 
@@ -1446,21 +1449,10 @@ BUSCAR RESPONSIVO
 	}
 
 	.float {
-		position: fixed;
-		width: 60px;
-		height: 60px;
-		bottom: 40px;
-		right: 60px;
-		background-color: #25d366;
-		color: #fff;
-		border-radius: 50px;
-		text-align: center;
-		font-size: 30px;
-		z-index: 100;
+		right: 90px;
+		bottom: 90px;
 	}
-	.float i {
-		margin-top: 7px;
-		margin-left: 3px;
-		font-size: 3rem;
+	.whatfloat {
+		top: 200px;
 	}
 }
