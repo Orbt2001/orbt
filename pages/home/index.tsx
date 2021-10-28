@@ -255,7 +255,7 @@ const Home: NextPage = () => {
 					</div>
 					<div className={style.contatof}>
 						<h2>Preencha o Formulário</h2>
-						<p>Preencha os campos abaixo para fazer um orçamento</p>
+						<p>Preencha os campos abaixo para entrar em contato</p>
 						{/* <form method="POST" onSubmit={handleOnSubmit}> */}
 						<form onSubmit={submitForm}>
 							<div className={style.gridcontato}>
