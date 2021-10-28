@@ -679,7 +679,7 @@ BUSCAR RESPONSIVO
 	}
 
 	.ul li {
-		margin-left: -5%;
+		margin-left: -9%;
 		margin-top: 30px;
 		font-size: 3.3rem;
 		text-transform: uppercase;
@@ -731,20 +731,28 @@ BUSCAR RESPONSIVO
 	/*PLANOS*/
 	.planos {
 		width: 100%;
-		height: 1650px;
+		height: 260vh;
 	}
 
 	.plano1 {
-		margin-left: 10%;
-		width: 180%;
-		height: 48%;
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 5%;
+		width: 90vw;
+		height: 100vh;
 	}
 
 	.plano2 {
-		margin-left: -90%;
-		width: 180%;
-		height: 48%;
-		margin-top: 700px;
+		position: absolute;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 5%;
+		width: 90vw;
+		height: 100vh;
+		margin-top: 730px;
 	}
 
 	/* TRABALHOS */
@@ -772,7 +780,7 @@ BUSCAR RESPONSIVO
 	}
 	.text1 h3 {
 		font-size: 3rem;
-		margin-top: 40px;
+		margin-top: 30px;
 	}
 	.text1 p {
 		width: 60%;
@@ -790,7 +798,7 @@ BUSCAR RESPONSIVO
 		height: 399.69px;
 		text-align: center;
 		margin-left: 0%;
-		margin-bottom: 100px;
+		margin-top: -77px;
 	}
 	.text2 h3 {
 		margin-top: 40px;
@@ -845,39 +853,34 @@ BUSCAR RESPONSIVO
 	/*FOOTER*/
 	.footer {
 		width: 100%;
-		height: 250px;
+		height: 80px;
 	}
 	.footer p {
 		display: none;
 	}
 
 	.linel:after,
-	.navf:after {
-		display: none;
-	}
-
-	.navf {
-		width: 100%;
-		margin-left: 0%;
-	}
-
+	.navf:after,
+	.navf,
 	.navf li a {
-		font-size: 1.5rem;
+		display: none;
 	}
 
 	/*Redes Sociais*/
 	.redes {
-		margin-left: 28%;
+		display: flex;
+		justify-content: center;
+		padding: 15px;
+		margin-left: -4%;
 	}
 	/*Copyright*/
 	.copy {
 		width: 100%;
 		height: 40%;
-		margin-top: -1px;
 	}
 	.copy span {
-		font-size: 1.2rem;
-		margin-left: 1.5%;
+		font-size: 1rem;
+		margin-left: 3%;
 	}
 
 	.float {
